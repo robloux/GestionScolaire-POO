@@ -1,18 +1,21 @@
-public class Personne
+namespace GestionScolaire
 {
-    private string _nom;
-    private string _prenom;
-    private string _email;
-
-    public Personne(string nom, string prenom, string email)
+    public class Personne
     {
-        _nom = nom;
-        _prenom = prenom;
-        _email = email;
-    }
+        private string _nom;
+        private string _prenom;
+        private string _email;
 
-    public virtual void SePresenter()
-    {
-        throw new System.NotImplementedException();
+        public Personne(string nom, string prenom, string email)
+        {
+            _nom = nom;
+            _prenom = prenom;
+            _email = email;
+        }
+
+        public virtual void SePresenter()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

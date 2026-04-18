@@ -1,13 +1,16 @@
-public class Inscription
+namespace GestionScolaire
 {
-    private Etudiant _etudiant;
-    private Cours _cours;
-    private string _statut;
-
-    public Inscription(Etudiant etudiant, Cours cours, string statut)
+    public class Inscription
     {
-        _etudiant = etudiant;
-        _cours = cours;
-        _statut = statut;
+        private Etudiant _etudiant;
+        private Cours _cours;
+        private string _statut;
+
+        public Inscription(Etudiant etudiant, Cours cours, string statut)
+        {
+            _etudiant = etudiant;
+            _cours = cours;
+            _statut = statut;
+        }
     }
 }

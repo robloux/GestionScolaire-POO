@@ -1,13 +1,16 @@
-public class Bulletin
+namespace GestionScolaire
 {
-    private Etudiant _etudiant;
-    private double _moyenne;
-    private string _appreciation;
-
-    public Bulletin(Etudiant etudiant, double moyenne, string appreciation)
+    public class Bulletin
     {
-        _etudiant = etudiant;
-        _moyenne = moyenne;
-        _appreciation = appreciation;
+        private Etudiant _etudiant;
+        private double _moyenne;
+        private string _appreciation;
+
+        public Bulletin(Etudiant etudiant, double moyenne, string appreciation)
+        {
+            _etudiant = etudiant;
+            _moyenne = moyenne;
+            _appreciation = appreciation;
+        }
     }
 }

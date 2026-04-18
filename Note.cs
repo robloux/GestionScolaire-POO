@@ -1,13 +1,16 @@
-public class Note
+namespace GestionScolaire
 {
-    private double _valeur;
-    private string _type;
-    private string _date;
-
-    public Note(double valeur, string type, string date)
+    public class Note
     {
-        _valeur = valeur;
-        _type = type;
-        _date = date;
+        private double _valeur;
+        private string _type;
+        private string _date;
+
+        public Note(double valeur, string type, string date)
+        {
+            _valeur = valeur;
+            _type = type;
+            _date = date;
+        }
     }
 }

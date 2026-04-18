@@ -6,9 +6,7 @@ namespace GestionScolaire
     {
         static void Main(string[] args)
         {
-            Etudiant e = new Etudiant("Ali");
-            Professeur p = new Professeur("Martin");
-            Cours c = new Cours();
+            Etudiant e = new Etudiant("Ali", "Test", "mail@test.com", "E01", "Info", 20);
 
             Console.WriteLine("OK");
         }

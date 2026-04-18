@@ -1,12 +1,18 @@
 namespace GestionScolaire
 {
-    // classe qui represente un cours en particulier 
-    // Peut etre ajouter le professeur qui s'occupe de le classe 
     public class Cours
     {
-        public Cours() { }
+        private string _titre;
+        private string _code;
+        private int _heures;
 
-        // ici on pourra afficher les infos du cours
+        public Cours(string titre, string code, int heures)
+        {
+            _titre = titre;
+            _code = code;
+            _heures = heures;
+        }
+
         public void Afficher()
         {
             throw new System.NotImplementedException();

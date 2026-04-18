@@ -1,0 +1,56 @@
+
+Personne
+- nom : string
+- prenom : string
+- email : strin
+SePresenter()
+
+Etudiant : Personne
+- matricule : string
+- class : string
+- age : int
+SePresenter()
+
+Professeur : Personne
+- specialite : string
+- salaire : double
+- anciennete : int
+SePresenter()
+
+Cours
+- titre : string
+- code : string
+- heures : int
+ Afficher()
+
+Classe
+- nom : string
+- niveau : string
+- anne : int
+
+Inscriptio
+- etudiant : Etudiant
+- cours : Cour
+- statut : string
+
+Note
+- valeur : double
+- type : string
+- date : string
+
+Bulletin
+- etudiant : etudiant
+- moyenne : double
+- appreciation : strin
+
+
+Relation :
+
+Etudiant hérite de Personne
+Professeur hérite de Personne
+
+Classe possede un Etudiant
+Note possede un Etudiant
+Bulletin possed un Etudiant
+Inscription posse de un Etudiant
+Inscription posse de un Cour

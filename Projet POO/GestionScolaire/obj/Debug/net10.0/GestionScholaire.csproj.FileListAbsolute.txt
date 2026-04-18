@@ -1,0 +1,15 @@
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\bin\Debug\net10.0\GestionScholaire.exe
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\bin\Debug\net10.0\GestionScholaire.deps.json
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\bin\Debug\net10.0\GestionScholaire.runtimeconfig.json
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\bin\Debug\net10.0\GestionScholaire.dll
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\bin\Debug\net10.0\GestionScholaire.pdb
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\GestionScholaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\GestionScholaire.AssemblyInfoInputs.cache
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\GestionScholaire.AssemblyInfo.cs
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\GestionScholaire.csproj.CoreCompileInputs.cache
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\GestionScholaire.dll
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\refint\GestionScholaire.dll
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\GestionScholaire.pdb
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\GestionScholaire.genruntimeconfig.cache
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\ref\GestionScholaire.dll
+C:\Users\theor\Desktop\Projet POO\GestionScolaire\obj\Debug\net10.0\GestionScholaire.sourcelink.json

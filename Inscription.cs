@@ -1,9 +1,13 @@
-namespace GestionScolaire
+public class Inscription
 {
-    // pour faire le lien entre un etudiant et un cours 
-    // pour savoir quel etudiant est inscrit en quoi ? 
-    public class Inscription
+    private Etudiant _etudiant;
+    private Cours _cours;
+    private string _statut;
+
+    public Inscription(Etudiant etudiant, Cours cours, string statut)
     {
-        public Inscription() { }
+        _etudiant = etudiant;
+        _cours = cours;
+        _statut = statut;
     }
 }

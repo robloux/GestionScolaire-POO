@@ -1,8 +1,13 @@
-namespace GestionScolaire
+public class Classe
 {
-    // une classe ou on pourra regrouper plusieurs etudiants dedans .
-    public class Classe
+    private string _nom;
+    private string _niveau;
+    private int _annee;
+
+    public Classe(string nom, string niveau, int annee)
     {
-        public Classe() { }
+        _nom = nom;
+        _niveau = niveau;
+        _annee = annee;
     }
 }

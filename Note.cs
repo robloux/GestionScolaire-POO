@@ -1,9 +1,13 @@
-namespace GestionScolaire
+public class Note
 {
-    // classe pour donner, attribuer une note a un etudiant 
-    // on pourra mettre le type, le genre de note et la valeur de la note
-    public class Note
+    private double _valeur;
+    private string _type;
+    private string _date;
+
+    public Note(double valeur, string type, string date)
     {
-        public Note() { }
+        _valeur = valeur;
+        _type = type;
+        _date = date;
     }
 }

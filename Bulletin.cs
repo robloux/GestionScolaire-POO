@@ -1,9 +1,13 @@
-namespace GestionScolaire
+public class Bulletin
 {
-    // une classe pour avoir le bulletin d'un etudiant donc sa note generale 
-    // note moyenne , apreciation , regroupement des notes 
-    public class Bulletin
+    private Etudiant _etudiant;
+    private double _moyenne;
+    private string _appreciation;
+
+    public Bulletin(Etudiant etudiant, double moyenne, string appreciation)
     {
-        public Bulletin() { }
+        _etudiant = etudiant;
+        _moyenne = moyenne;
+        _appreciation = appreciation;
     }
 }
